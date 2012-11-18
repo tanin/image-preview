@@ -1,7 +1,8 @@
 require "image-preview/version"
+require 'image-preview/railtie' if defined?(Rails)
 
 module Image
   module Preview
-    # Your code goes here...
+
   end
 end
